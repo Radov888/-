@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пицца Halal 34 — Вкусная доставка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/halal-logo.png" alt="Сертификат Halal" class="halal-logo">
+        <nav class="nav">
+            <ul>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1 class="gradient-text">Вкусная пицца с доставкой</h1>
+            <p class="highlight-text">Свежая выпечка, халяль ингредиенты, быстрая доставка, без ГМО</p>
+            <p class="accent-text">УСЛОВИЯ ДОСТАВКИ - 99р. Доставка от 2-х и более пицц БЕСПЛАТНО. (центральный, советский, кировский, ворошиловский, дзержинский)</p>
+            <button class="btn-view-menu" onclick="scrollToMenu()">Посмотреть меню</button>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Наше меню</h2>
+            <div class="cards">
+                <!-- Первая карточка пиццы -->
+                <div class="card">
+                    <img src="images/photo11.jpg" alt="Пицца Маргарита">
+                    <h3>Маргарита</h3>
+                    <p>Томаты, моцарелла, базилик /600гр </p>
+                    <span class="price">590 ₽</span>
+                     <button>Заказать</button>
+                </div>
+
+                <!-- Вторая карточка пиццы -->
+                <div class="card">
+                    <img src="images/photo12.jpg" alt="Пицца Охотничья">
+                    <h3>Охотничья</h3>
+                    <p>Халапеньо, моцарелла, колбаса 2 вида, маслины, томаты, зелен.лук, петрушка, красный соус(кинза, чеснок, перец черн.) /800гр</p>
+                    <span class="price">730 ₽</span>
+                    <button>Заказать</button>
+                </div>
+
+                <!-- Третья карточка пиццы -->
+                <div class="card">
+                    <img src="images/photo13.jpg" alt="Пицца Овощная">
+                    <h3>Овощная</h3>
+                    <p>Кабачки, моцарелла, болгарский перец, шампиньоны, томаты, белый соус(сметана, майонез, чеснок, укроп, перец черн.) /700гр</p>
+                    <span class="price">690 ₽</span>
+                    <button>Заказать</button>
+                </div>
+
+                <!-- Четвертая карточка пиццы -->
+                <div class="card">
+                    <img src="images/photo14.jpg" alt="Пицца Дубайская">
+                    <h3>Дубайская</h3>
+                    <p>Ветчина куриная, моцарелла, болгарский перец, шампиньоны, томаты, зелен. лук, петрушка, красный соус( кинза, чеснок, перец черн.) /750гр</p>
+                    <span class="price">730 ₽</span>
+                    <button>Заказать</button>
+                </div>
+
+                <!-- Пятая карточка пиццы -->
+                <div class="card">
+                    <img src="images/photo15.jpg" alt="Пицца Грибная">
+                    <h3>Грибная</h3>
+                    <p>Шампиньены, вешенки, моцарелла, зелен.лук, петрушка, белый соус(сметана, майонез, чеснок, укроп, перец черн.) /700гр</p>
+                    <span class="price">690 ₽</span>
+                    <button>Заказать</button>
+                </div>
+                <div class="card">
+                    <img src="images/photo16.jpg" alt="Пицца Морская">
+                    <h3>Морская</h3>
+                    <p>Лосось, креветки, моцарелла, укроп, белый соус(сметана, майонез, чеснок, укроп, перец черн.)/700гр</p>
+                    <span class="price">820 ₽</span>
+                    <button>Заказать</button>
+                </div>
+                <div class="card">
+                    <img src="images/photo17.jpg" alt="Пицца Куриная">
+                    <h3>Куриная</h3>
+                    <p>Курица, ветчина куриная, моцарелла, пармезан , томаты, огурцы маринованные, зелен. лук, красный соус( кинза, чеснок, перец черн.)/750гр</p>
+                    <span class="price">730 ₽</span>
+                    <button>Заказать</button>
+                </div>
+				<div class="card">
+                    <img src="images/photo18.jpg" alt="Пицца Куриная">
+                    <h3>Картофель Фри обычная</h3>
+                    <p>100гр</p>
+                    <span class="price">99 ₽</span>
+                    <button>Заказать</button>
+				</div>
+                <div class="card">
+                    <img src="images/photo19.jpg" alt="Пицца Куриная">
+                    <h3>Картофель Фри большая</h3>
+                    <p>160гр</p>
+                    <span class="price">140 ₽</span>
+                    <button>Заказать</button>
+                </div>
+				<div class="card">
+                    <img src="images/photo20.jpg" alt="Пицца Куриная">
+                    <h3>Облепиховый чай Эко</h3>
+                    <p>0.5л/1л (облепиха, апельсин, имбирь, сахар, зелен.чай, куркума)</p>
+                    <span class="price">80 ₽/140 ₽</span>
+                    <button>Заказать</button>
+                </div>
+				<div class="card">
+                    <img src="images/photo21.jpg" alt="Пицца Куриная">
+                    <h3>Лимонад Эко</h3>
+                    <p>0.5л/1л (лимон, мед, имбирь, мята, сахар)</p>
+                    <span class="price">80 ₽/140 ₽</span>
+                    <button>Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О нас</h2>
+            <p>В приготовлении используем исключительно халяль продукты, слоеное и традиционное тесто.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (993) 900-10-95</p>
+            <p>Телефон: +7 (937) 693-33-30</p>
+            <p>Email: info@pizza.ru</p>
+            <p>Адрес: г. Волгоград, ул. Химина 12, оф101</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="highlight-text">&copy; 2026 Пицца Halal34 — Вкусная доставка. Все права защищены.</p>
+    </footer>
+
+   <button class="btn-order">Заказать</button>
+<div class="popup" id="phonePopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle" tabindex="-1">
+    <div class="popup-content">
+        <span class="close-btn" aria-label="Закрыть окно">&times;</span>
+        <h3 id="popupTitle">Заказать пиццу</h3>
+        <p>Позвоните нам:</p>
+        <ul class="phone-list">
+            <li><a href="tel:+79939001095">+7 (993) 900-10-95</a></li>
+            <li><a href="tel:+79376933330">+7 (937) 693-33-30</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
