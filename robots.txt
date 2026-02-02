@@ -1,0 +1,10 @@
+﻿User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /personal-account/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /*?sessionid=
+Disallow: /*&referer=
+Allow: /
