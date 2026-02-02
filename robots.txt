@@ -5,3 +5,4 @@ Disallow: /admin/
 Disallow: /personal-account/
 Clean-param: sessionid /
 Clean-param:referer /
+Sitemap: https://www.halal34.ru/sitemap.xml
